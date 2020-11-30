@@ -7,8 +7,8 @@ This project allows you to run a load test against the Cloudstate shopping cart 
 
 # Prerequisites
 
-* Get [Your Lightbend Cloudstate Account](https://docs.lbcs.io/gettingstarted/account.html)
-* Install [akkasls](https://docs.lbcs.io/getting-started/set-up-development-env.html)
+* Get [Your Akka Serverless Account](https://docs.cloudstate.com/getting-started/lightbend-account.html)
+* Install [akkasls](https://docs.cloudstate.com/getting-started/set-up-development-env.html)
 
 # Running the shopping cart smoke test
 
@@ -18,7 +18,7 @@ Run a smoke test
 
 Be sure to change GATLING_HOST and GATLING_PORT to correctly your service. Some examples:
 
-Targeting a Lightbend Cloudstate deployment:
+Targeting a Akka Serverless deployment:
 
 Your service will need to be exposed using the `akkasls svc expose` command. This gives you the hostname. The port will be 443. Additionally, you need to ensure that SSL is enabled (the default is to communicate with the service in plaintext mode).
 
